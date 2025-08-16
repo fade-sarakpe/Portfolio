@@ -1,6 +1,5 @@
+import Stars from "@/components/layout/stars/Stars";
 import "./globals.css";
-
-
 
 export default function RootLayout({
   children,
@@ -10,7 +9,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <Stars />
+        <div className="main-container">{children}</div>
       </body>
     </html>
   );
