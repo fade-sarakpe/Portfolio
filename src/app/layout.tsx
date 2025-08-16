@@ -1,5 +1,6 @@
 import Stars from "@/components/layout/stars/Stars";
 import "./globals.css";
+import { ThemeProvider } from "@/contexts/themeContext";
 
 export default function RootLayout({
   children,
@@ -9,8 +10,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Stars />
-        <div className="main-container">{children}</div>
+        <ThemeProvider>
+          <Stars />
+          <div className="main-container">{children}</div>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -13,7 +13,7 @@
     width: 180px;
     padding: 10px;
     list-style-type: none;
-    background-color: #202337;
+    background-color: var(--mobile-menu-color);
     border-radius: 3px;
     display: none;
 }
@@ -25,12 +25,12 @@
     right: 25px;
     border-style: solid;
     border-width: 10px;
-    border-color: transparent transparent #202337 transparent;
+    border-color: transparent transparent var(--mobile-menu-color) transparent;
 }
 
 .mobile-menu ul li {
     width: 100%;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--text-color);
     padding: 10px 0;
 }
 
