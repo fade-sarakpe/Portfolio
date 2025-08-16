@@ -1,0 +1,82 @@
+.mobile-menu {
+    display: none;
+    position: relative;
+}
+
+.mobile-menu ul {
+    position: absolute;
+    top: 15px;
+    right: -25px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 180px;
+    padding: 10px;
+    list-style-type: none;
+    background-color: #202337;
+    border-radius: 3px;
+    display: none;
+}
+
+.mobile-menu ul::after{
+    content: "";
+    position: absolute;
+    top: -18px;
+    right: 25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent #202337 transparent;
+}
+
+.mobile-menu ul li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.mobile-menu ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.mobile-menu ul li:first-child {
+    padding-top: 0;
+}
+
+.mobile-menu ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.mobile-menu ul li:hover  {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+    background-clip: text; 
+    color: transparent;
+    
+}
+
+.mobile-menu ul li:hover a {
+    padding-left: 15px;
+    transition: all 0.5s ease;
+}
+
+.mobile-menu:hover ul{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+
+    .mobile-menu ul {
+        top: 25px;
+        right: -10px;
+    }
+
+    .mobile-menu ul::after  {
+        right: 10px;
+    }
+}

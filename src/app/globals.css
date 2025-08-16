@@ -1,5 +1,29 @@
-.main-container {
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+
+  .main-container {
     position: relative;
     z-index: 1;
     color: white;
+    padding: 0 6vw;
+    margin: 0;
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
 }

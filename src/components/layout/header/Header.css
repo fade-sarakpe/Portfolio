@@ -1,0 +1,9 @@
+.Header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    backdrop-filter: blur(1px);
+    font-size: 1.2rem;
+    font-weight: 500;
+    align-items: center;
+}

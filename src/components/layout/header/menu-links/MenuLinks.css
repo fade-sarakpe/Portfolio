@@ -1,0 +1,26 @@
+.menu-links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 1rem; 
+  }
+  
+  .menu-links a {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  .menu-links a:hover {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+    background-clip: text; 
+    color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    .menu-links {
+        display: none;
+    }
+}
