@@ -5,13 +5,18 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const ThemeContext = createContext<ThemeContextType | null>(null);
 
 export const ThemeProvider = ({ children }: any) => {
-  const [theme, setTheme] = useState<string>(() => {
-    return localStorage.getItem('theme') || 'dark';
-  });
+  const [theme, setTheme] = useState<string>("dark");
 
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      setTheme(savedTheme);
+    }
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   const toggleTheme = (newTheme: string) => {
@@ -26,9 +31,9 @@ export const ThemeProvider = ({ children }: any) => {
 };
 
 export const useTheme = () => {
-    const context = useContext(ThemeContext)
-    if (!context) {
-        throw new Error("useTheme must be used within a ThemeProvider");
-      }
-      return context;
+  const context = useContext(ThemeContext)
+  if (!context) {
+    throw new Error("useTheme must be used within a ThemeProvider");
+  }
+  return context;
 };
