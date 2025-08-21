@@ -1,0 +1,65 @@
+.home {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .home-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-content h1 span {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+    background: var(--gradient-color);
+    color: var(--background-color);
+  }
+  
+  .btn:hover {
+    opacity: 0.85;
+  }
+  
+  .btn.secondary {
+    background: transparent;
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+  }
+  
+  .btn.secondary:hover {
+    background: var(--gradient-color);
+    color: var(--background-color);
+  }
+  
+  .react-typewriter-text {
+    display: flex;
+    justify-content: center;
+    height: 38px;
+  }
+
+  @media (max-width: 480px) {
+    .buttons {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+  }
