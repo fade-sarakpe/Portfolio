@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import TypeWriterEffect from "react-typewriter-effect";
+import dynamic from "next/dynamic";
+const TypeWriterEffect = dynamic(() => import("react-typewriter-effect"), { ssr: false });
 import "./Hero.css";
 
 export default function Hero() {
@@ -27,7 +28,6 @@ export default function Hero() {
           deleteSpeed={130}
           multiTextLoop={true} 
         />
-        <h3>I blend creativity with technical expertise to deliver sleek, responsive designs that elevate brands and captivate users.</h3>
         <div className="buttons">
           <a href="#projects" className="btn">View My Work</a>
           <a href="#contact" className="btn secondary">Contact Me</a>
