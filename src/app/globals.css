@@ -1,5 +1,6 @@
 :root {
   --gradient-color: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+  --secondary-color: #00CFFF;
   --background-color: #000;
   --text-color: #fff;
   --mobile-menu-color: #202337;
@@ -7,6 +8,7 @@
 
 [data-theme="dark"] {
   --gradient-color: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+  --secondary-color: #00CFFF;
   --background-color: #000;
   --text-color: #fff;
   --mobile-menu-color: #202337;
@@ -14,6 +16,7 @@
 
 [data-theme="light"] {
   --gradient-color: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+  --secondary-color: #00CFFF;
   --background-color: #fff;
   --text-color: #000;
   --mobile-menu-color: #202337;
