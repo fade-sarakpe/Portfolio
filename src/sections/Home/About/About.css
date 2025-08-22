@@ -202,6 +202,7 @@
     .circle-container {
         width: 280px;
         height: 280px;
+        margin-top: 50px;
     }
 
     .circle-container .circle_center .circle5 {
