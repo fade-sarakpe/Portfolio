@@ -29,6 +29,7 @@ html, body {
     font-size: 18px;
     font-weight: 600;
     font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
   .main-container {
