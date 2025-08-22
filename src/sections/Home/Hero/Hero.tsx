@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section id="home" className="home">
       <div className="home-content">
-        <h1>Hi, I am <span>Fadi Sarakpi</span></h1>
+        <h1>Hi,<br /> I am <span>Fadi Sarakpi</span></h1>
         <TypeWriterEffect
           textStyle={{
             fontFamily: "Arial",
@@ -28,6 +28,7 @@ export default function Hero() {
           deleteSpeed={130}
           multiTextLoop={true} 
         />
+        <p>I&apos;m a Computer System Engineer with a passion for web development, With a hands-on experience in modern web technologies</p>
         <div className="buttons">
           <a href="#projects" className="btn">View My Work</a>
           <a href="#contact" className="btn secondary">Contact Me</a>
