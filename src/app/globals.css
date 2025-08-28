@@ -27,7 +27,6 @@ html, body {
     padding: 0;
     box-sizing: border-box;
     font-size: 18px;
-    font-weight: 600;
     font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
     scroll-behavior: smooth;
 }

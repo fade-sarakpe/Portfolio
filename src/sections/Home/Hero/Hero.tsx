@@ -16,7 +16,7 @@ export default function Hero() {
             fontWeight: 500,
             fontSize: "1.8rem",
           }}
-          startDelay={3000}
+          startDelay={2000}
           cursorColor="#00CFFF"
           multiText={[
             "Frontend Developer",
