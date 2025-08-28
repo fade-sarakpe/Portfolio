@@ -1,6 +1,6 @@
+
 import Header from "@/components/layout/header/Header";
-import About from "@/sections/Home/About/About";
-import Hero from "@/sections/Home/Hero/Hero";
+import { Hero, About, Skills } from '@/sections/Home/index';
 import { Fragment } from "react";
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <About />
+      <Skills />
     </Fragment>
   );
 }
