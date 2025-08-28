@@ -1,0 +1,7 @@
+ h1 {
+    background: var(--gradient-color);
+    background-clip: text;           
+    color: transparent;     
+    -webkit-background-clip: text;   
+    -webkit-text-fill-color: transparent;       
+  }

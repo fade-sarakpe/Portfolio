@@ -5,16 +5,19 @@ import nodeSvg from "@/assets/icon/nodejs-svg.svg";
 import expressSvg from "@/assets/icon/express-svg.svg";
 import Image from "next/image";
 import "./About.css";
+import SectionTitle from "@/components/ui/section-title/SectionTitle";
 
 export default function About() {
   return (
     <div id="about" className="about-section">
       <div className="about-content">
-        <h1>About</h1>
-          I&apos;m Fadi Sarakpi, a passionate Full-Stack Developer specializing in both
-          Front-End and Back-End development. I enjoy building modern, dynamic, and
-          user-friendly applications, and I&apos;m always eager to learn new
-          technologies and enhance my skills.
+        <SectionTitle title="About"/>
+          <p>
+            I&apos;m Fadi Sarakpi, a passionate Full-Stack Developer specializing in both
+            Front-End and Back-End development. I enjoy building modern, dynamic, and
+            user-friendly applications, and I&apos;m always eager to learn new
+            technologies and enhance my skills.
+          </p>
       </div>
       <div className="about-circle">
         <div className="circle-container">

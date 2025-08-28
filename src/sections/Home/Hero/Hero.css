@@ -24,7 +24,6 @@
   .home-content p {
     font-size: 1.3rem;
     max-width: 750px;
-    font-weight: lighter;
   }
   
   .buttons {
@@ -83,7 +82,6 @@
     .home-content p {
       font-size: 1.1rem;
       max-width: 750px;
-      font-weight: lighter;
     }
 
   }
