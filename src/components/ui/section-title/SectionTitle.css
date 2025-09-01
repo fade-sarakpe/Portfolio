@@ -1,4 +1,4 @@
-section-title {
+.section-title {
     background: var(--gradient-color);
     background-clip: text;           
     color: transparent;     
