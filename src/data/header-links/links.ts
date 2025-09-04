@@ -18,8 +18,8 @@ export const links: LinksType[] = [
     },
     {
         id: "4b",
-        text: "Project",
-        href: "#project",
+        text: "Projects",
+        href: "#projects",
     },
     {
         id: "5b",

@@ -4,8 +4,9 @@ import iconTyping from '@/assets/icon/icon-typing.png';
 import iconCleanCode from '@/assets/icon/icon-clean-code.png';
 import iconApi from '@/assets/icon/icon-api.png';
 import iconDatabase from '@/assets/icon/icon-database.png';
+import { ServicesType } from '@/types/types';
 
-export const services = [
+export const services: ServicesType[] = [
     {
       id: '01',
       title: 'Website Design',
