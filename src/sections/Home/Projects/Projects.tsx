@@ -11,7 +11,7 @@ export default function Projects() {
       <SectionTitle title="Projects" />
       <div className="projects-container">
         {projects.map((project, index) => (
-          <div key={project.id} className={`project-row ${index % 2 === 0 ? 'project-row-left' : 'project-row-right'}`}>
+          <div key={project.id} data-aos={index % 2 === 0 ? "fade-right" : "fade-left"} className={`project-row ${index % 2 === 0 ? 'project-row-left' : 'project-row-right'}`}>
             <div className="project-image-container">
               <Image 
                 className="project-image" 

@@ -72,6 +72,7 @@ export default function Contact() {
             placeholder="Your email"
             value={formData.email}
             onChange={handleInputChange}
+            data-aos="fade-left"
             className="contact-input"
             required
           />
@@ -81,12 +82,13 @@ export default function Contact() {
             placeholder="Your Message"
             value={formData.message}
             onChange={handleInputChange}
+            data-aos="fade-right"
             className="contact-textarea"
             rows={8}
             required
           />
           
-          <button type="submit" className="contact-submit" disabled={isSubmit}>
+          <button data-aos="fade-up" type="submit" className="contact-submit" disabled={isSubmit}>
             {isSubmit ? (
               <div className="spinner-container">
                 <div className="spinner"></div>

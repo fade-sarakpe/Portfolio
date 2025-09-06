@@ -12,7 +12,7 @@ export default function About() {
     <div id="about" className="about-section">
       <div className="about-content">
         <SectionTitle title="About"/>
-          <p>
+          <p data-aos="fade-right">
             I&apos;m Fadi Sarakpi, a passionate Full-Stack Developer specializing in both
             Front-End and Back-End development. I enjoy building modern, dynamic, and
             user-friendly applications, and I&apos;m always eager to learn new
