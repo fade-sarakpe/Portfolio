@@ -88,7 +88,7 @@ export default function Contact() {
             required
           />
           
-          <button data-aos="fade-up" type="submit" className="contact-submit" disabled={isSubmit}>
+          <button data-aos="fade-left" type="submit" className="contact-submit" disabled={isSubmit}>
             {isSubmit ? (
               <div className="spinner-container">
                 <div className="spinner"></div>
