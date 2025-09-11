@@ -21,7 +21,7 @@ export const services: ServicesType[] = [
     },
     {
       id: '03',
-      title: 'Fast Typing',
+      title: 'Rapid Prototyping',
       description: 'I Possess Rapid Coding Abilities, Allowing Me To Efficiently Craft Top-Tier Websites With Precision And Speed.',
       icon: iconTyping
     },

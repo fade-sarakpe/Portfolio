@@ -15,16 +15,16 @@ export const skills = [
         name: "React",
     },
     {
-        name: "Next",
+        name: "Next.js",
     },
     {
         name: "Bootstrap",
     },
     {
-        name: "Node.Js",
+        name: "Node.js",
     },
     {
-        name: "Express.Js",
+        name: "Express.js",
     },
     {
         name: "MongoDB",    
