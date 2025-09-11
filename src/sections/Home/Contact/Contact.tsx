@@ -148,7 +148,7 @@ export default function Contact() {
           <div className="social-icons-container">
             <h2 className="links-title">Social</h2>
               <div className="social-icons">
-                  <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER}?text=${""}`} className="social-icon">
+                  <a href={`https://wa.me/${process.env.NEXT_PUBLIC_CONTACT_PHONE}?text=${""}`} className="social-icon">
                     <FaWhatsapp color="white" size={30}/>
                   </a>
                   <a href={process.env.NEXT_PUBLIC_LINKEDIN_URL} className="social-icon">
