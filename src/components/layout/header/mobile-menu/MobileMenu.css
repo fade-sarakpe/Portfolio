@@ -1,5 +1,11 @@
-.mobile-menu {
+.mobile-menu-container {
+    display: flex;
+    position: relative;
+    top: 8px;
     display: none;
+}
+
+.mobile-menu {
     position: relative;
 }
 
@@ -16,6 +22,7 @@
     background-color: var(--mobile-menu-color);
     border-radius: 3px;
     display: none;
+    animation: fadeIn 0.4s ease-out;
 }
 
 .mobile-menu ul::after{
@@ -67,8 +74,8 @@
 }
 
 @media (max-width: 768px) {
-    .mobile-menu {
-        display: block;
+    .mobile-menu-container {
+        display: flex;
     }
 
     .mobile-menu ul {
@@ -79,4 +86,15 @@
     .mobile-menu ul::after  {
         right: 10px;
     }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

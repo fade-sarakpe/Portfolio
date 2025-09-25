@@ -16,7 +16,7 @@
 }
 
 .contact-email {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -37,7 +37,7 @@
 .contact-input,
 .contact-textarea {
     background: rgba(0, 207, 255, 0.05);
-    border: 1px solid var(--secondary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 10px;
     padding: 15px 20px;
     font-size: 1rem;
@@ -66,7 +66,7 @@
 }
 
 .contact-submit {
-    background: var(--secondary-color);
+    background: var(--primary-color);
     color: white;
     border: none;
     border-radius: 25px;
@@ -146,7 +146,7 @@
 }
 
 .contact-link-section .link-item:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
     transform: translateX(5px);
     transition: all 0.4s ease;
 }

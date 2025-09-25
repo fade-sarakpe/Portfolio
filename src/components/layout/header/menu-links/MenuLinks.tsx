@@ -2,23 +2,9 @@
 import "./MenuLinks.css";
 import { LinksType } from "@/types/types";
 import { links } from "@/data/header-links/links";
-// import { HiMoon } from "react-icons/hi";
-// import { useTheme } from "@/contexts/themeContext";
+import ColorPicker from "@/components/ui/ColorPicker/ColorPicker";
 
 export default function MenuLinks() {
-  // const { toggleTheme } = useTheme();
-
-  // const handleChangeTheme = () => {
-  //   const currentTheme = localStorage.getItem('theme');
-  //   if (currentTheme === 'light') {
-  //     localStorage.setItem('theme', 'dark');
-  //     toggleTheme('dark');
-  //   } else {
-  //     localStorage.setItem('theme', 'light');
-  //     toggleTheme('light');
-  //   }
-  // }
-
   return (
     <nav className="menu-links">
       <ul>
@@ -28,7 +14,7 @@ export default function MenuLinks() {
           </li>
         ))}
       </ul>
-      {/* <div onClick={handleChangeTheme}><HiMoon /></div> */}
+      <ColorPicker variant="desktop" />
     </nav>
   );
 }

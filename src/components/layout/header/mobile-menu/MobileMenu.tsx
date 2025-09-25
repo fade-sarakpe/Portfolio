@@ -2,18 +2,22 @@ import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import './MobileMenu.css';
 import { links } from "@/data/header-links/links";
 import { LinksType } from "@/types/types";
+import ColorPicker from "@/components/ui/ColorPicker/ColorPicker";
 
 export default function MobileMenu() {
   return (
-    <div className="mobile-menu">
+    <div className="mobile-menu-container">
+      <div className="mobile-menu">
          <HiMiniBars3BottomRight />
          <ul>
-        {links.map((link: LinksType) => (
-          <li key={link.id}>
-            <a href={link.href}>{link.text}</a>
-          </li>
-        ))}
-      </ul>
+          {links.map((link: LinksType) => (
+            <li key={link.id}>
+              <a href={link.href}>{link.text}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <ColorPicker variant="mobile" />
     </div>
   )
 }

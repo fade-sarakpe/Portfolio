@@ -12,12 +12,12 @@ export default function Hero() {
         <TypeWriterEffect
           textStyle={{
             fontFamily: "Arial",
-            color: "#00CFFF",
+            color: "var(--primary-color)",
             fontWeight: 500,
             fontSize: "1.8rem",
           }}
           startDelay={2000}
-          cursorColor="#00CFFF"
+          cursorColor="var(--primary-color)"
           multiText={[
             "Frontend Developer",
             "Backend Developer",
