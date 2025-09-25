@@ -18,7 +18,7 @@
 
 .project-row:hover {
     transform: translateY(-5px);
-    box-shadow: 0 20px 40px rgba(0, 207, 255, 0.15);
+    box-shadow: 0 20px 40px color-mix(in srgb, var(--primary-color) 30%, transparent);
 }
 
 .project-row-right {
@@ -131,7 +131,7 @@
 }
 
 .tech-tag:hover {
-    background: rgba(139, 92, 246, 0.2);
+    background: color-mix(in srgb, var(--primary-color) 30%, transparent);
     transform: translateY(-1px);
 }
 

@@ -1,6 +1,5 @@
 import SectionTitle from '@/components/ui/section-title/SectionTitle';
 import { services } from '@/data/services/services';
-import Image from 'next/image';
 import './Services.css';
 
 export default function Services() {
@@ -27,7 +26,7 @@ export default function Services() {
         {services.map((service, index) => (
           <div data-aos={getAOSAnimation(index)} key={service.id} className="service-card">
             <div className="service-number">{service.id}</div>
-            <Image className="service-icon" src={service.icon} width={75} height={75} alt='' />
+            <service.icon className="service-icon" size={80}/>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
           </div>

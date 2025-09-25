@@ -58,7 +58,7 @@
 .mobile-menu ul li:hover  {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background: linear-gradient(141deg,rgba(7, 118, 140, 1) 0%, rgba(20, 193, 227, 0.97) 21%, rgba(7, 123, 146, 1) 62%, rgba(20, 193, 227, 1) 99%);
+    background: color-mix(in srgb, var(--primary-color) 30%, transparent);
     background-clip: text; 
     color: transparent;
     

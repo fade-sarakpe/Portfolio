@@ -36,7 +36,7 @@
 
 .contact-input,
 .contact-textarea {
-    background: rgba(0, 207, 255, 0.05);
+    background: color-mix(in srgb, var(--primary-color) 5%, transparent);
     border: 1px solid var(--primary-color);
     border-radius: 10px;
     padding: 15px 20px;
@@ -56,8 +56,8 @@
 .contact-input:focus,
 .contact-textarea:focus {
     outline: none;
-    box-shadow: -2px 2px 25 2px rgba(0, 208, 255, 0.371);
-    background: rgba(0, 207, 255, 0.1);
+    box-shadow: -2px 2px 25 2px color-mix(in srgb, var(--primary-color) 30%, transparent);
+    background: color-mix(in srgb, var(--primary-color) 10%, transparent);
 }
 
 .contact-textarea {
@@ -86,7 +86,7 @@
 
 .contact-submit:hover:not(:disabled) {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
+    box-shadow: 0 8px 25px color-mix(in srgb, var(--primary-color) 30%, transparent);
 }
 
 .contact-submit:disabled {

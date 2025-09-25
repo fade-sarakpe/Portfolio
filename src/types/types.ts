@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { IconType } from "react-icons";
 
 export interface LinksType {
     id: string; 
@@ -10,7 +11,7 @@ export interface ServicesType {
     id: string; 
     title: string;
     description: string;
-    icon: StaticImageData;
+    icon: IconType;
   }
 
 export interface ProjectType {
